@@ -1,0 +1,877 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Samiha Mridha
+ID:      169060718
+Email:   mrid0718@mylaurier.ca
+Version: 2024-01-24
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+The queue is empty
+Pushed Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135 to queue
+The queue is not empty.
+Peeked value:  Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+Removed value:  Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+Pushed Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490 to queue
+The queue is not empty.
+Peeked value:  Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+Removed value:  Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+Pushed Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272 to queue
+The queue is not empty.
+Peeked value:  Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+Removed value:  Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+Pushed Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138 to queue
+The queue is not empty.
+Peeked value:  Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+Removed value:  Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+Pushed Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260 to queue
+The queue is not empty.
+Peeked value:  Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+Removed value:  Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+Pushed Name:       Chirashi Don
+Origin:     Japanese
+Vegetarian: False
+Calories:   600 to queue
+The queue is not empty.
+Peeked value:  Name:       Chirashi Don
+Origin:     Japanese
+Vegetarian: False
+Calories:   600
+Removed value:  Name:       Chirashi Don
+Origin:     Japanese
+Vegetarian: False
+Calories:   600
+Pushed Name:       Canuck Burger
+Origin:     Canadian
+Vegetarian: False
+Calories:   7500 to queue
+The queue is not empty.
+Peeked value:  Name:       Canuck Burger
+Origin:     Canadian
+Vegetarian: False
+Calories:   7500
+Removed value:  Name:       Canuck Burger
+Origin:     Canadian
+Vegetarian: False
+Calories:   7500
+Pushed Name:       Turducken
+Origin:     American
+Vegetarian: False
+Calories:   12240 to queue
+The queue is not empty.
+Peeked value:  Name:       Turducken
+Origin:     American
+Vegetarian: False
+Calories:   12240
+Removed value:  Name:       Turducken
+Origin:     American
+Vegetarian: False
+Calories:   12240
+Pushed Name:       Shark Fin Soup
+Origin:     Chinese
+Vegetarian: False
+Calories:   46 to queue
+The queue is not empty.
+Peeked value:  Name:       Shark Fin Soup
+Origin:     Chinese
+Vegetarian: False
+Calories:   46
+Removed value:  Name:       Shark Fin Soup
+Origin:     Chinese
+Vegetarian: False
+Calories:   46
+Pushed Name:       Chamuco
+Origin:     Mexican
+Vegetarian: True
+Calories:   150 to queue
+The queue is not empty.
+Peeked value:  Name:       Chamuco
+Origin:     Mexican
+Vegetarian: True
+Calories:   150
+Removed value:  Name:       Chamuco
+Origin:     Mexican
+Vegetarian: True
+Calories:   150
+Pushed Name:       Natto
+Origin:     Japanese
+Vegetarian: True
+Calories:   212 to queue
+The queue is not empty.
+Peeked value:  Name:       Natto
+Origin:     Japanese
+Vegetarian: True
+Calories:   212
+Removed value:  Name:       Natto
+Origin:     Japanese
+Vegetarian: True
+Calories:   212
+Pushed Name:       Canada Goose Chili
+Origin:     Canadian
+Vegetarian: False
+Calories:   199 to queue
+The queue is not empty.
+Peeked value:  Name:       Canada Goose Chili
+Origin:     Canadian
+Vegetarian: False
+Calories:   199
+Removed value:  Name:       Canada Goose Chili
+Origin:     Canadian
+Vegetarian: False
+Calories:   199
+Pushed Name:       Diet Free-Range Gluten-free Water
+Origin:     American
+Vegetarian: True
+Calories:   0 to queue
+The queue is not empty.
+Peeked value:  Name:       Diet Free-Range Gluten-free Water
+Origin:     American
+Vegetarian: True
+Calories:   0
+Removed value:  Name:       Diet Free-Range Gluten-free Water
+Origin:     American
+Vegetarian: True
+Calories:   0
+Pushed Name:       Kung Pao Chicken
+Origin:     Chinese
+Vegetarian: False
+Calories:   229 to queue
+The queue is not empty.
+Peeked value:  Name:       Kung Pao Chicken
+Origin:     Chinese
+Vegetarian: False
+Calories:   229
+Removed value:  Name:       Kung Pao Chicken
+Origin:     Chinese
+Vegetarian: False
+Calories:   229
+Pushed Name:       General Tao Chicken
+Origin:     Chinese
+Vegetarian: False
+Calories:   850 to queue
+The queue is not empty.
+Peeked value:  Name:       General Tao Chicken
+Origin:     Chinese
+Vegetarian: False
+Calories:   850
+Removed value:  Name:       General Tao Chicken
+Origin:     Chinese
+Vegetarian: False
+Calories:   850
+Pushed Name:       Spicy Vegetable Moo Shu
+Origin:     Chinese
+Vegetarian: True
+Calories:   140 to queue
+The queue is not empty.
+Peeked value:  Name:       Spicy Vegetable Moo Shu
+Origin:     Chinese
+Vegetarian: True
+Calories:   140
+Removed value:  Name:       Spicy Vegetable Moo Shu
+Origin:     Chinese
+Vegetarian: True
+Calories:   140
+Pushed Name:       BBQ Pork
+Origin:     Chinese
+Vegetarian: False
+Calories:   920 to queue
+The queue is not empty.
+Peeked value:  Name:       BBQ Pork
+Origin:     Chinese
+Vegetarian: False
+Calories:   920
+Removed value:  Name:       BBQ Pork
+Origin:     Chinese
+Vegetarian: False
+Calories:   920
+Pushed Name:       Orange Chicken
+Origin:     Chinese
+Vegetarian: False
+Calories:   800 to queue
+The queue is not empty.
+Peeked value:  Name:       Orange Chicken
+Origin:     Chinese
+Vegetarian: False
+Calories:   800
+Removed value:  Name:       Orange Chicken
+Origin:     Chinese
+Vegetarian: False
+Calories:   800
+Pushed Name:       Vegetables with Cashew Nuts
+Origin:     Chinese
+Vegetarian: True
+Calories:   143 to queue
+The queue is not empty.
+Peeked value:  Name:       Vegetables with Cashew Nuts
+Origin:     Chinese
+Vegetarian: True
+Calories:   143
+Removed value:  Name:       Vegetables with Cashew Nuts
+Origin:     Chinese
+Vegetarian: True
+Calories:   143
+Pushed Name:       Lemon Chicken
+Origin:     Chinese
+Vegetarian: False
+Calories:   226 to queue
+The queue is not empty.
+Peeked value:  Name:       Lemon Chicken
+Origin:     Chinese
+Vegetarian: False
+Calories:   226
+Removed value:  Name:       Lemon Chicken
+Origin:     Chinese
+Vegetarian: False
+Calories:   226
+Pushed Name:       Beef with Green Pepper
+Origin:     Chinese
+Vegetarian: False
+Calories:   251 to queue
+The queue is not empty.
+Peeked value:  Name:       Beef with Green Pepper
+Origin:     Chinese
+Vegetarian: False
+Calories:   251
+Removed value:  Name:       Beef with Green Pepper
+Origin:     Chinese
+Vegetarian: False
+Calories:   251
+Pushed Name:       Sweet and Sour Pork
+Origin:     Chinese
+Vegetarian: False
+Calories:   231 to queue
+The queue is not empty.
+Peeked value:  Name:       Sweet and Sour Pork
+Origin:     Chinese
+Vegetarian: False
+Calories:   231
+Removed value:  Name:       Sweet and Sour Pork
+Origin:     Chinese
+Vegetarian: False
+Calories:   231
+Pushed Name:       Szechuan Shrimp
+Origin:     Chinese
+Vegetarian: False
+Calories:   516 to queue
+The queue is not empty.
+Peeked value:  Name:       Szechuan Shrimp
+Origin:     Chinese
+Vegetarian: False
+Calories:   516
+Removed value:  Name:       Szechuan Shrimp
+Origin:     Chinese
+Vegetarian: False
+Calories:   516
+Pushed Name:       Poutine
+Origin:     Canadian
+Vegetarian: False
+Calories:   710 to queue
+The queue is not empty.
+Peeked value:  Name:       Poutine
+Origin:     Canadian
+Vegetarian: False
+Calories:   710
+Removed value:  Name:       Poutine
+Origin:     Canadian
+Vegetarian: False
+Calories:   710
+Pushed Name:       Teppanyaki
+Origin:     Japanese
+Vegetarian: False
+Calories:   200 to queue
+The queue is not empty.
+Peeked value:  Name:       Teppanyaki
+Origin:     Japanese
+Vegetarian: False
+Calories:   200
+Removed value:  Name:       Teppanyaki
+Origin:     Japanese
+Vegetarian: False
+Calories:   200
+Pushed Name:       Greek Salad
+Origin:     Greek
+Vegetarian: True
+Calories:   185 to queue
+The queue is not empty.
+Peeked value:  Name:       Greek Salad
+Origin:     Greek
+Vegetarian: True
+Calories:   185
+Removed value:  Name:       Greek Salad
+Origin:     Greek
+Vegetarian: True
+Calories:   185
+Pushed Name:       Fettuccine
+Origin:     Italian
+Vegetarian: False
+Calories:   266 to queue
+The queue is not empty.
+Peeked value:  Name:       Fettuccine
+Origin:     Italian
+Vegetarian: False
+Calories:   266
+Removed value:  Name:       Fettuccine
+Origin:     Italian
+Vegetarian: False
+Calories:   266
+Pushed Name:       Teriyaki
+Origin:     Japanese
+Vegetarian: False
+Calories:   233 to queue
+The queue is not empty.
+Peeked value:  Name:       Teriyaki
+Origin:     Japanese
+Vegetarian: False
+Calories:   233
+Removed value:  Name:       Teriyaki
+Origin:     Japanese
+Vegetarian: False
+Calories:   233
+Pushed Name:       Shortbread 
+Origin:     Scottish
+Vegetarian: True
+Calories:   502 to queue
+The queue is not empty.
+Peeked value:  Name:       Shortbread 
+Origin:     Scottish
+Vegetarian: True
+Calories:   502
+Removed value:  Name:       Shortbread 
+Origin:     Scottish
+Vegetarian: True
+Calories:   502
+Pushed Name:       Pavlova
+Origin:     New Zealand
+Vegetarian: True
+Calories:   272 to queue
+The queue is not empty.
+Peeked value:  Name:       Pavlova
+Origin:     New Zealand
+Vegetarian: True
+Calories:   272
+Removed value:  Name:       Pavlova
+Origin:     New Zealand
+Vegetarian: True
+Calories:   272
+Pushed Name:       Hokey Pokey Ice Cream
+Origin:     New Zealand
+Vegetarian: True
+Calories:   106 to queue
+The queue is not empty.
+Peeked value:  Name:       Hokey Pokey Ice Cream
+Origin:     New Zealand
+Vegetarian: True
+Calories:   106
+Removed value:  Name:       Hokey Pokey Ice Cream
+Origin:     New Zealand
+Vegetarian: True
+Calories:   106
+Pushed Name:       Fricot
+Origin:     Canadian
+Vegetarian: False
+Calories:   360 to queue
+The queue is not empty.
+Peeked value:  Name:       Fricot
+Origin:     Canadian
+Vegetarian: False
+Calories:   360
+Removed value:  Name:       Fricot
+Origin:     Canadian
+Vegetarian: False
+Calories:   360
+Pushed Name:       Chip Butty
+Origin:     English
+Vegetarian: True
+Calories:   956 to queue
+The queue is not empty.
+Peeked value:  Name:       Chip Butty
+Origin:     English
+Vegetarian: True
+Calories:   956
+Removed value:  Name:       Chip Butty
+Origin:     English
+Vegetarian: True
+Calories:   956
+Pushed Name:       Grilled Salmon
+Origin:     Canadian
+Vegetarian: False
+Calories:   511 to queue
+The queue is not empty.
+Peeked value:  Name:       Grilled Salmon
+Origin:     Canadian
+Vegetarian: False
+Calories:   511
+Removed value:  Name:       Grilled Salmon
+Origin:     Canadian
+Vegetarian: False
+Calories:   511
+Pushed Name:       Ravioli
+Origin:     Italian
+Vegetarian: False
+Calories:   246 to queue
+The queue is not empty.
+Peeked value:  Name:       Ravioli
+Origin:     Italian
+Vegetarian: False
+Calories:   246
+Removed value:  Name:       Ravioli
+Origin:     Italian
+Vegetarian: False
+Calories:   246
+Pushed Name:       Crepe
+Origin:     Italian
+Vegetarian: True
+Calories:   186 to queue
+The queue is not empty.
+Peeked value:  Name:       Crepe
+Origin:     Italian
+Vegetarian: True
+Calories:   186
+Removed value:  Name:       Crepe
+Origin:     Italian
+Vegetarian: True
+Calories:   186
+Pushed Name:       Fried Rice
+Origin:     Chinese
+Vegetarian: False
+Calories:   425 to queue
+The queue is not empty.
+Peeked value:  Name:       Fried Rice
+Origin:     Chinese
+Vegetarian: False
+Calories:   425
+Removed value:  Name:       Fried Rice
+Origin:     Chinese
+Vegetarian: False
+Calories:   425
+Pushed Name:       Pepperoni Pizza
+Origin:     Italian
+Vegetarian: False
+Calories:   713 to queue
+The queue is not empty.
+Peeked value:  Name:       Pepperoni Pizza
+Origin:     Italian
+Vegetarian: False
+Calories:   713
+Removed value:  Name:       Pepperoni Pizza
+Origin:     Italian
+Vegetarian: False
+Calories:   713
+Pushed Name:       Chicken Kabob
+Origin:     Indian
+Vegetarian: False
+Calories:   167 to queue
+The queue is not empty.
+Peeked value:  Name:       Chicken Kabob
+Origin:     Indian
+Vegetarian: False
+Calories:   167
+Removed value:  Name:       Chicken Kabob
+Origin:     Indian
+Vegetarian: False
+Calories:   167
+Pushed Name:       Panzerotti
+Origin:     Italian
+Vegetarian: False
+Calories:   770 to queue
+The queue is not empty.
+Peeked value:  Name:       Panzerotti
+Origin:     Italian
+Vegetarian: False
+Calories:   770
+Removed value:  Name:       Panzerotti
+Origin:     Italian
+Vegetarian: False
+Calories:   770
+Pushed Name:       Spring Rolls
+Origin:     Chinese
+Vegetarian: True
+Calories:   200 to queue
+The queue is not empty.
+Peeked value:  Name:       Spring Rolls
+Origin:     Chinese
+Vegetarian: True
+Calories:   200
+Removed value:  Name:       Spring Rolls
+Origin:     Chinese
+Vegetarian: True
+Calories:   200
+Pushed Name:       Chicken Chow Mein
+Origin:     Chinese
+Vegetarian: False
+Calories:   178 to queue
+The queue is not empty.
+Peeked value:  Name:       Chicken Chow Mein
+Origin:     Chinese
+Vegetarian: False
+Calories:   178
+Removed value:  Name:       Chicken Chow Mein
+Origin:     Chinese
+Vegetarian: False
+Calories:   178
+Pushed Name:       Chicken Wings
+Origin:     American
+Vegetarian: False
+Calories:   298 to queue
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+0
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+0
+1
+2
+3
+4
+5
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+The queue is empty
+Pushed Lasagna|7|False|135
+ to queue
+The priority queue is not empty.
+Peeked value:  Lasagna|7|False|135
+
+Removed value:  Lasagna|7|False|135
+
+Pushed Butter Chicken|2|False|490
+ to queue
+The priority queue is not empty.
+Peeked value:  Butter Chicken|2|False|490
+
+Removed value:  Butter Chicken|2|False|490
+
+Pushed Moo Goo Guy Pan|1|False|272
+ to queue
+The priority queue is not empty.
+Peeked value:  Moo Goo Guy Pan|1|False|272
+
+Removed value:  Moo Goo Guy Pan|1|False|272
+
+Pushed Vegetable Alicha|3|True|138
+ to queue
+The priority queue is not empty.
+Peeked value:  Vegetable Alicha|3|True|138
+
+Removed value:  Vegetable Alicha|3|True|138
+
+Pushed Spanakopita|5|True|260
+ to queue
+The priority queue is not empty.
+Peeked value:  Spanakopita|5|True|260
+
+Removed value:  Spanakopita|5|True|260
+
+Pushed Chirashi Don|6|False|600
+ to queue
+The priority queue is not empty.
+Peeked value:  Chirashi Don|6|False|600
+
+Removed value:  Chirashi Don|6|False|600
+
+Pushed Canuck Burger|0|False|7500
+ to queue
+The priority queue is not empty.
+Peeked value:  Canuck Burger|0|False|7500
+
+Removed value:  Canuck Burger|0|False|7500
+
+Pushed Turducken|8|False|12240
+ to queue
+The priority queue is not empty.
+Peeked value:  Turducken|8|False|12240
+
+Removed value:  Turducken|8|False|12240
+
+Pushed Shark Fin Soup|1|False|46
+ to queue
+The priority queue is not empty.
+Peeked value:  Shark Fin Soup|1|False|46
+
+Removed value:  Shark Fin Soup|1|False|46
+
+Pushed Chamuco|4|True|150
+ to queue
+The priority queue is not empty.
+Peeked value:  Chamuco|4|True|150
+
+Removed value:  Chamuco|4|True|150
+
+Pushed Natto|6|True|212
+ to queue
+The priority queue is not empty.
+Peeked value:  Natto|6|True|212
+
+Removed value:  Natto|6|True|212
+
+Pushed Canada Goose Chili|0|False|199
+ to queue
+The priority queue is not empty.
+Peeked value:  Canada Goose Chili|0|False|199
+
+Removed value:  Canada Goose Chili|0|False|199
+
+Pushed Diet Free-Range Gluten-free Water|8|True|0
+ to queue
+The priority queue is not empty.
+Peeked value:  Diet Free-Range Gluten-free Water|8|True|0
+
+Removed value:  Diet Free-Range Gluten-free Water|8|True|0
+
+Pushed Kung Pao Chicken|1|False|229
+ to queue
+The priority queue is not empty.
+Peeked value:  Kung Pao Chicken|1|False|229
+
+Removed value:  Kung Pao Chicken|1|False|229
+
+Pushed General Tao Chicken|1|False|850
+ to queue
+The priority queue is not empty.
+Peeked value:  General Tao Chicken|1|False|850
+
+Removed value:  General Tao Chicken|1|False|850
+
+Pushed Spicy Vegetable Moo Shu|1|True|140
+ to queue
+The priority queue is not empty.
+Peeked value:  Spicy Vegetable Moo Shu|1|True|140
+
+Removed value:  Spicy Vegetable Moo Shu|1|True|140
+
+Pushed BBQ Pork|1|False|920
+ to queue
+The priority queue is not empty.
+Peeked value:  BBQ Pork|1|False|920
+
+Removed value:  BBQ Pork|1|False|920
+
+Pushed Orange Chicken|1|False|800
+ to queue
+The priority queue is not empty.
+Peeked value:  Orange Chicken|1|False|800
+
+Removed value:  Orange Chicken|1|False|800
+
+Pushed Vegetables with Cashew Nuts|1|True|143
+ to queue
+The priority queue is not empty.
+Peeked value:  Vegetables with Cashew Nuts|1|True|143
+
+Removed value:  Vegetables with Cashew Nuts|1|True|143
+
+Pushed Lemon Chicken|1|False|226
+ to queue
+The priority queue is not empty.
+Peeked value:  Lemon Chicken|1|False|226
+
+Removed value:  Lemon Chicken|1|False|226
+
+Pushed Beef with Green Pepper|1|False|251
+ to queue
+The priority queue is not empty.
+Peeked value:  Beef with Green Pepper|1|False|251
+
+Removed value:  Beef with Green Pepper|1|False|251
+
+Pushed Sweet and Sour Pork|1|False|231
+ to queue
+The priority queue is not empty.
+Peeked value:  Sweet and Sour Pork|1|False|231
+
+Removed value:  Sweet and Sour Pork|1|False|231
+
+Pushed Szechuan Shrimp|1|False|516
+ to queue
+The priority queue is not empty.
+Peeked value:  Szechuan Shrimp|1|False|516
+
+Removed value:  Szechuan Shrimp|1|False|516
+
+Pushed Poutine|0|False|710
+ to queue
+The priority queue is not empty.
+Peeked value:  Poutine|0|False|710
+
+Removed value:  Poutine|0|False|710
+
+Pushed Teppanyaki|6|False|200
+ to queue
+The priority queue is not empty.
+Peeked value:  Teppanyaki|6|False|200
+
+Removed value:  Teppanyaki|6|False|200
+
+Pushed Greek Salad|5|True|185
+ to queue
+The priority queue is not empty.
+Peeked value:  Greek Salad|5|True|185
+
+Removed value:  Greek Salad|5|True|185
+
+Pushed Fettuccine|7|False|266
+ to queue
+The priority queue is not empty.
+Peeked value:  Fettuccine|7|False|266
+
+Removed value:  Fettuccine|7|False|266
+
+Pushed Teriyaki|6|False|233
+ to queue
+The priority queue is not empty.
+Peeked value:  Teriyaki|6|False|233
+
+Removed value:  Teriyaki|6|False|233
+
+Pushed Shortbread |9|True|502
+ to queue
+The priority queue is not empty.
+Peeked value:  Shortbread |9|True|502
+
+Removed value:  Shortbread |9|True|502
+
+Pushed Pavlova|10|True|272
+ to queue
+The priority queue is not empty.
+Peeked value:  Pavlova|10|True|272
+
+Removed value:  Pavlova|10|True|272
+
+Pushed Hokey Pokey Ice Cream|10|True|106
+ to queue
+The priority queue is not empty.
+Peeked value:  Hokey Pokey Ice Cream|10|True|106
+
+Removed value:  Hokey Pokey Ice Cream|10|True|106
+
+Pushed Fricot|0|False|360
+ to queue
+The priority queue is not empty.
+Peeked value:  Fricot|0|False|360
+
+Removed value:  Fricot|0|False|360
+
+Pushed Chip Butty|11|True|956
+ to queue
+The priority queue is not empty.
+Peeked value:  Chip Butty|11|True|956
+
+Removed value:  Chip Butty|11|True|956
+
+Pushed Grilled Salmon|0|False|511
+ to queue
+The priority queue is not empty.
+Peeked value:  Grilled Salmon|0|False|511
+
+Removed value:  Grilled Salmon|0|False|511
+
+Pushed Ravioli|7|False|246
+ to queue
+The priority queue is not empty.
+Peeked value:  Ravioli|7|False|246
+
+Removed value:  Ravioli|7|False|246
+
+Pushed Crepe|7|True|186
+ to queue
+The priority queue is not empty.
+Peeked value:  Crepe|7|True|186
+
+Removed value:  Crepe|7|True|186
+
+Pushed Fried Rice|1|False|425
+ to queue
+The priority queue is not empty.
+Peeked value:  Fried Rice|1|False|425
+
+Removed value:  Fried Rice|1|False|425
+
+Pushed Pepperoni Pizza|7|False|713
+ to queue
+The priority queue is not empty.
+Peeked value:  Pepperoni Pizza|7|False|713
+
+Removed value:  Pepperoni Pizza|7|False|713
+
+Pushed Chicken Kabob|2|False|167
+ to queue
+The priority queue is not empty.
+Peeked value:  Chicken Kabob|2|False|167
+
+Removed value:  Chicken Kabob|2|False|167
+
+Pushed Panzerotti|7|False|770
+ to queue
+The priority queue is not empty.
+Peeked value:  Panzerotti|7|False|770
+
+Removed value:  Panzerotti|7|False|770
+
+Pushed Spring Rolls|1|True|200
+ to queue
+The priority queue is not empty.
+Peeked value:  Spring Rolls|1|True|200
+
+Removed value:  Spring Rolls|1|True|200
+
+Pushed Chicken Chow Mein|1|False|178
+ to queue
+The priority queue is not empty.
+Peeked value:  Chicken Chow Mein|1|False|178
+
+Removed value:  Chicken Chow Mein|1|False|178
+
+Pushed Chicken Wings|8|False|298 to queue
+None

@@ -1,0 +1,57 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  your name
+ID:      your ID
+Email:   your Laurier email address
+Version: yyyy-mm-dd
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+sanrio
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+kuromi
+('Moo Goo Guy Pan', 1, False, 272)
+cinnamoroll
+Removed value: Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+Target 1
+sanrio
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+kuromi
+Target2
+('Moo Goo Guy Pan', 1, False, 272)
+cinnamoroll
+
+Found: kuromi
+Max: sanrio
+Min: cinnamoroll
+Peeked: cinnamoroll
+Index of "sanrio": 2
+Original list:
+cinnamoroll
+kuromi
+sanrio
+kuromi
+Cleaned list:
+cinnamoroll
+kuromi
+sanrio
+Intersection: 
+cinnamoroll
+sanrio

@@ -1,0 +1,92 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Samiha Mridha
+ID:      169060718
+Email:   mrid0718@mylaurier.ca
+Version: 2024-01-19
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+Name:       Moo Goo Guy Pan
+Origin:     Italian
+Vegetarian: False
+Calories:   272
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+average calories: 299
+
+average calories: 303
+
+average calories: 316
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+Calories: 6
+
+Calories: 0
+
+Calories: 36
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+Food                                Origin       Vegetarian Calories
+----------------------------------- ------------ ---------- --------
+Butter Chicken                      Indian       False      490
+Lasagna                             Italian      False      135
+Moo Goo Guy Pan                     Chinese      False      272
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+Name:       Naan
+Origin:     Indian
+Vegetarian: True
+Calories:   5
+Name:       Juice
+Origin:     Chinese
+Vegetarian: True
+Calories:   0
+
+Name:       Naan
+Origin:     Indian
+Vegetarian: True
+Calories:   5
+Name:       Butter chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   67
+Name:       Beef
+Origin:     Ethiopian
+Vegetarian: False
+Calories:   12
+Name:       Juice
+Origin:     Chinese
+Vegetarian: True
+Calories:   0
+
+Name:       Naan
+Origin:     Indian
+Vegetarian: True
+Calories:   5
+Name:       Butter chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   67

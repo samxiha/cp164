@@ -1,0 +1,14 @@
+n:   100       |      Comparisons       | |         Swaps          |
+Algorithm      In Order Reversed   Random In Order Reversed   Random
+-------------- -------- -------- -------- -------- -------- --------
+Bubble Sort          99     4950     4744        0     4950     2480
+Insertion Sort       99     4950     2594        0   1683.0    849.0
+Merge Sort          356      316      542        0        0        0
+Quick Sort          543     5122     3462        0        0        0
+Selection Sort     4950     4950     4950        0       50       94
+Bin. Ins. Sort      480     1146      810        0   1683.0    852.0
+BST Sort           9900     4950      961        0        0        0
+Cocktail Sort        99     4950     3379        0     4950     2467
+Comb Sort          1003     1102     1245        0      122      263
+Heap Sort          1081      944     1027      640      516      580
+Shell Sort         1003     1080     1194        0        0        0
